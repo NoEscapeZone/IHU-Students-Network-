@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>IHU - Students Network</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="ihu students network.jpg" rel="shortcut icon" type="image/x-icon"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="menu.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+
+/* unvisited link */
+a:link {
+  color: #3d93d1;
+}
+
+/* visited link */
+a:visited {
+  color: #3d93d1;
+}
+
+/* google maps */
+iframe{display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+p.align{text-align: center;
+color:white;}
+
+
+.departments{
+  text-align: center;
+  color: black;
+}
+
+footer{
+	color:white;
+  text-align: center;
+	padding-bottom: 5px;
+	padding: 5px;
+	width:auto;
+	font-size:15px;
+	margin:auto;
+
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#servers" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVERS</a>
+    <a href="#articles" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ARTICLES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#servers" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVERS</a>
+  <a href="#articles" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ARTICLES</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="ihu-1.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>International Hellenic University - Students Network</h3>
+      <p><b></b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="ihu2.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>International Hellenic University - Students Network</h3>
+      <p><b></b></p>    
+    </div>
+  </div>
+  
+    <br/><br/> 
+
+  
+    <div class="header" align="center">
+      <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">Δευτέρα</a>
+                <a href="#">Τρίτη</a>
+                <a href="#">Τετάρτη</a>
+                <a href="#">Πέμπτη</a>
+                <a href="#">Παρασκευή</a>
+                <a href="#">Σάββατο</a>
+                <a href="#">Κυριακή</a>
+            </div>
+      </div>
+    
+    
+  
+    
+    
+    <span style="font-size:30px;cursor:pointer"onclick="openNav()">&#9776; ΜΕΝΟΥ ΣΙΤΙΣΗΣ</span>
+    
+        <script>
+          function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+                     }
+    
+          function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+                    }
+        </script>
+                    <!-- END HEADER -->
+    
+    </div>
+
+
+  <!-- The About Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+    <h1 class="w3-wide">ABOUT</h1>
+        <div class="h1 h4">
+          <p> <b>Το IHU - Students Network αφορά τα 3 τμήματα μηχανικών του ΔΙΠΑΕ
+             Θεσσαλονίκης και δημιουργήθηκε για την διευκόλυνση αλλα και
+             την καλύτερη δικτύωση των φοιτητών. </p>
+           </p>
+        </div>
+    </div>
+  </div>
+
+        <br/>
+
+      <h3 style="text-align: center; color: black; ;">ΤΜΗΜΑΤΑ:</h3>
+      <div class="departments">
+        <h5>Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστημάτων</h5>
+        <h5>Μηχανικών Παραγωγής και Διοίκησης</h5>
+        <h5>Μηχανικών Περιβάλλοντος</h5>
+      </div>
+
+
+      <br/><br/><br/>
+      
+      <!-- HR Tag-->
+      <hr style="height: 3px; border-width:0; background-color:black"><hr/>
+      
+      <br/><br/><br/>
+
+  <!-- The Servers Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="servers">
+  
+    <h1 class="w3-wide">SERVERS</h1>
+        <br/>
+      <h3>Discord Server Σχολών Μηχανικών ΔΙΠΑΕ Θεσσαλονίκης:</h3>
+      <h5>Βρείτε μας στον Discord Server: <a href="https://discord.gg/QAhwUHMD" target="_blank">Click Here</a></h5>
+       <br/>
+      <h3>Zoom Room Σχολών Μηχανικών ΔΙΠΑΕ Θεσσαλονίκης:</h3>
+      <h5>Βρείτε μας στο Zoom Room: <a href="https://us05web.zoom.us/postattendee?mn=F0pmGpFkgqIkUs6OIfErukzSNoIo4OncCKAv.tm9AwE2BVT_Onhb4&id=7">Click Here</a></h5>
+      <h5>Meeting ID: 836 6774 2561</h5>
+      <h5>Passcode: CXk8ic</h5>
+        <br/>
+      <h3>Ιστοσελίδες Τμημάτων Μηχανικών ΔΙΠΑΕ Θεσσαλονίκης:</h3>
+      <h5>Τμήμα Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστημάτων: <a href="https://www.ihu.gr/tmimata/michanikon-pliroforikis-ilektronikon-systimaton"  target="_blank">Click Here</a> </h5>
+      <h5>Τμήμα Μηχανικών Παραγωγής και Διοίκησης: <a href="https://www.ihu.gr/tmimata/michanikon-paragogis-dioikisis"  target="_blank">Click Here</a></h5>
+      <h5>Τμήμα Μηχανικών Περιβάλλοντος: <a href="https://www.ihu.gr/tmimata/michanikon-perivallontos" target="_blank">Click Here</a></h5>
+       <br/>
+      <h3>Επίσημες Σελίδες ΔΙΠΑΕ στο Facebook:</h3>
+      <h5>Σελίδα International Hellenic University (ΔΙΠΑΕ): <a href="https://el-gr.facebook.com/InternationalHellenicUniversity/" target="_blank">Click Here</a></h5>
+      <h5>Σελίδα Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστυμάτων: <a href="https://www.facebook.com/ieeihu/" target="_blank">Click Here</a></h5>
+    
+    
+    </div>
+  </div>
+
+  <!-- The Articles Section -->
+  <div class="w3-black" id="articles">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h1 class="w3-wide w3-center">ARTICLES</h1>
+			  <br/>
+    
+		  <h3>ΔΙΠΑΕ:  Έκτακτη ενημέρωση φοιτητών για μεταφορα του τμήματός τους στις Σέρρες:</h3>
+	  	<h5>Διαβάστε το σχετικό άρθρο εδώ: <a href="https://www.foititikanea.gr/%CF%80%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%AE%CE%BC%CE%B9%CE%B1/%CE%B4%CE%B9%CE%B5%CE%B8%CE%BD%CE%AD%CF%82-%CF%80%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%AE%CE%BC%CE%B9%CE%BF-%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%BF%CF%82/25904-%CE%B4%CE%B9%CF%80%CE%B1%CE%B5-%CE%B3%CE%B9%CE%B1-%CE%BC%CE%B5%CF%84%CE%B1%CF%86%CE%BF%CF%81%CE%AC-%CF%84%CE%BC%CE%AE%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CE%B1%CF%80%CF%8C-%CF%84%CE%B7-%CF%83%CE%AF%CE%BD%CE%B4%CE%BF-%CF%83%CF%84%CE%B9%CF%82-%CF%83%CE%AD%CF%81%CF%81%CE%B5%CF%82">Click Here</a></h5>
+			  <br/>
+		  <h3>Μεταφέρουν αιφνιδιαστικά 6.000 φοιτητές και 3 τμήματα Μηχανικών από τη Θεσσαλονίκη στις Σέρρες - Διοίκηση: «Η απόφαση έχει παρθεί»:</h3>
+		  <h5>Διαβάστε το σχετικό άρθρο εδώ: <a href="https://www.makthes.gr/metaferoyn-aifnidiastika-6-khiliades-foitites-kai-3-tmimata-mikhanikwn-apo-ti-thessaloniki-stis-serres-541334">Click Here</a></h5>
+		  	<br/>
+		  <h3>Έκτακτη ενημέρωση των Φοιτητών από τον Πρόεδρο του Τμήματος:</h3>
+	  	<h5>Διαβάστε το σχετικό άρθρο εδώ: <a href="http://iem.ihu.gr/anakoinwseis.php?pn=1&id=394">Click Here</a></h5>
+		  	<br/>
+		  <h3>Συγκέντρωση διαμαρτυρίας φοιτητών για τη μεταφορά του τμήματος στις Σέρρες:</h3>
+		  <h5>Διαβάστε το σχετικό άρθρο εδώ: <a href="https://www.thes.gr/thessaloniki/thessaloniki-sygkentrosi-diamartyrias-foititon-gia-ti-metafora-tou-tmimatos-stis-serres-foto/?fbclid=IwAR1pZb7Kh0M3uHY8CeOCvrtkNEGpF43OM2gv-xZR988jHvCUiLi-0-vALis">Click Here</a></h5>
+			  <br/>
+		  <h3>Απαράδεκτη η απόφαση συγχώνευσης και κατάργησης Τμημάτων στο Διεθνές Πανεπιστήμιο:</h3>
+		  <h5>Διαβάστε το σχετικό άρθρο εδώ: <a href="https://www.902.gr/eidisi/politiki/291669/aparadekti-i-apofasi-syghoneysis-kai-katargisis-tmimaton-sto-diethnes">Click Here</a></h5>
+		  	<br/>
+		  <h3>Ξεσηκωμός στο ΔΙΠΑΕ:</h3>
+		  <h5>Διαβάστε το σχετικό άρθρο εδώ: <a href="https://www.efsyn.gr/ellada/ekpaideysi/338556_xesikomos-sto-dipae">Click Here</a></h5>
+			  <br/><br/><br/><br/>
+		
+		<h1>Department Announcements</h1>
+			<br/>
+		<h3>Tμήμα Μηχανικών Πληροφορικής και Ηλεκτρονικών Συστημάτων</h3>
+		<h5>Διάβαστε τις ανακοινώσεις του τμήματος εδώ: <a href="https://www.iee.ihu.gr/category/news/">Click Here</a></h5>
+			<br/>
+		<h3>Τμήμα Μηχανικών Παραγωγής και Διοίκησης</h3>
+		<h5>Διάβαστε τις ανακοινώσεις του τμήματος εδώ: <a href="http://www.iem.ihu.gr/anakoinwseis.php">Click Here</a></h5>
+			<br/>
+		<h3>Τμήμα Μηχανικών Περιβάλλοντος</h3>
+		<h5>Διάβαστε τις ανακοινώσεις του τμήματος εδώ: <a href="http://env.ihu.gr/?cat=2">Click Here</a></h5>
+   
+		
+		
+
+      
+    <!-- NEW LINES-->
+    <br/><br/><br/><br/><br/><br/><br/>
+      
+
+      
+
+ 
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h1 class="w3-wide w3-center">CONTACT</h1>
+   
+    <div class="w3-row w3-padding-32">
+        <div class="w3-col m6 w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker" style="width:30px"></i> Thessaloniki, Greece<br>
+          <i class="fa fa-phone" style="width:30px"></i> Phone: 698-------<br>
+          <i class="fa fa-envelope" style="width:30px"></i> Email: it185348@it.teithe.gr<br>
+          <i class="fa fa-instagram" style="width:30px"></i> ---//---<br>
+          <i class="fa fa-facebook" style="width:30px"></i>International Hellenic University<br>
+          <i class="fa fa-globe" style="width:30px"></i>https://www.ihu.gr
+        </div> 
+    </div>
+
+  </div>  
+  
+
+
+
+<!-- Google Maps import -->
+<p class="align">International Hellenic University on Google Maps:</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.205093466847!2d22.80240129557214!3d40.656867754858006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a8252f00734565%3A0xe6aff0634be23dc2!2zzpTOuc61zrjOvc6tz4IgzqDOsc69zrXPgM65z4PPhM6uzrzOuc6_IM6VzrvOu86szrTOv8-CIC0gzpHOu861zr7Osc69zrTPgc61zrnOsSDOoM6xzr3Otc-AzrnPg8-EzrfOvM65zr_Phc-Azr_Ou863!5e0!3m2!1sel!2sgr!4v1649249518513!5m2!1sel!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+  <br/> <!-- new line-->
+
+
+<!-- Footer's Image-->
+<img src="dipae2022.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+
+
+<br/>
+
+
+
+<!-- Footer -->
+<footer class="footer">
+  
+  Created by <a href="mailto:it185348@users.teithe.gr" target="_blank">Vasilhs Drakos&copy;</a></p>
+
+</footer>
+
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
